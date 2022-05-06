@@ -1,4 +1,37 @@
+body{
+   background-color: #a8bfab;
+}
+
 .heading {
     text-align: center;
     font-weight: bold;
+    color: #363D4B;
+    background-color: #f1f4f2;
+    text-decoration: overline;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+
+h2 {
+    color: #221625;
+    text-decoration: overline underline;
+}
+
+.pageContent {
+    text-align: center;
+    background-color: #f1f4f2;
+    color: #363d4b;
+    padding: 3px;
+    margin: auto;
+    border-radius: 25px;
+    
+}
+
+.image {
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
