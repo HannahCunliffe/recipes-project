@@ -10,12 +10,15 @@ body{
     text-decoration: overline;
     border-radius: 25px;
     padding: 10px;
-
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    border: #221625 2px solid;
 }
 
-h2 {
+.subheading {
     color: #221625;
     text-decoration: overline underline;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
 }
 
 .pageContent {
@@ -25,13 +28,37 @@ h2 {
     padding: 3px;
     margin: auto;
     border-radius: 25px;
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border: #221625 1px solid;
+    border-style: dashed;
 }
 
 .image {
-    padding: 5px;
+    border: #221625 1px solid;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    height: 600px;
+    width: auto;
+    margin-bottom: 28px;
+}
+
+.recipeselect {
+   font-size: 18px;
+   list-style-type: none;
+}
+
+.recipeselect li {
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color:rgba(195, 215, 241, 0.432);
+    border: 1px solid #363D4B;
+    width:50%;
+    font-size: 24px;
+}
+
+.recipeselect li:hover {
+    background: rgb(119, 146, 184);
 }
